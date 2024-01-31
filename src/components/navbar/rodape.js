@@ -16,7 +16,7 @@ function Rodape() {
       <div className="navbar-brand" style={{ textAlign: "left", marginLeft: '1vw' }}>
           <div className='d-flex'>
             <img src={Logo} alt="Logo" style={{ width: '120px', marginRight: '10px', backgroundColor: 'white', borderRadius: '30vw', padding: '0.5vw' }} />
-            <h2 id="nomeLogo" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '1rem', fontSize: '1.5rem' }}>Hermenêutica <br /> Jurídica<br />Blog</h2>
+            <h2 id="nomeLogo" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '1rem', fontSize: '1.5rem' }}>Os Hermenêutas</h2>
           </div>
         </div>
         

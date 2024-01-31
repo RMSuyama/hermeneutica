@@ -4,7 +4,7 @@ function Inicio() {
   return (
     <div className="container mt-5">
       <div className="bg-dark text-white text-center p-4" style={{borderRadius:'0.5vw'}}>
-        <h1 className="display-4">Bem-vindo ao Blog Hermenêutica Jurídica!</h1><br/>
+        <h1 className="display-4">Bem-vindo ao Hermenêutas, que segundo as melhores doutrinas, é uma das fontes do nosso direito!</h1><br/>
         <p className="lead">
           Somos apaixonados por desvendar os intricados caminhos da hermenêutica jurídica.
           Nosso blog é o espaço onde exploramos e compartilhamos insights sobre interpretação
