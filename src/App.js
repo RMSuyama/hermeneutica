@@ -1,29 +1,21 @@
 import React from 'react';
-import Nav from './components/navbar/nav';
-import Home from './components/views/início';
-import Rodape from './components/navbar/rodape';
-import SobreMim from './components/views/sobre';
-
-import JoinUsView from './components/views/joinus';
-import SobreAndre from './components/views/sobreAndre';
-
+import './App.css';
+import Rotas from '../src/routes/routes';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
 function App() {
+
+
   return (
-    <div className='app'>
+    <div className="App">
 
-    <Nav></Nav>
+        <Rotas/>
 
-    <Home></Home>
-    <SobreMim></SobreMim>
-    <SobreAndre></SobreAndre>
-    <JoinUsView></JoinUsView>
-    <Rodape></Rodape>
+
     </div>
-
-  )
+  );
 }
 
 export default App;

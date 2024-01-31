@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Home() {
+function Blog() {
   return (
 
 <div class="container mt-5">
@@ -92,4 +92,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Blog;

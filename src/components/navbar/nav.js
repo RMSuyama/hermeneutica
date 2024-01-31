@@ -6,6 +6,7 @@ import LinkedIn from '../../statics/img/linkedin.png';
 import Instagram from '../../statics/img/insta.png';
 import Logo from '../../statics/img/logo.png';
 import '../navbar/nav.css';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -44,34 +45,39 @@ function Nav() {
           <div className="offcanvas-body" style={{ color: 'black' }}>
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <a className="nav-link" href="https://www.linkedin.com/in/rafael-moreira-suyama/" style={{ fontSize: '1rem' }}>
+                <Link className="nav-link" to="/" style={{ fontSize: '1rem' }}>
                   Início
-                </a>
+                </Link>
               </li>
               <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <a className="nav-link" href="https://www.linkedin.com/in/rafael-moreira-suyama/" style={{ fontSize: '1rem' }}>
+                <Link className="nav-link" to="/artigos" style={{ fontSize: '1rem' }}>
                   Artigos
-                </a>
+                </Link>
               </li>
               <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <a className="nav-link" href="https://www.instagram.com/rafael.suyama/" style={{ fontSize: '1rem' }}>
+                <Link className="nav-link" to="/sobre" style={{ fontSize: '1rem' }}>
                   Sobre nós
-                </a>
+                </Link>
               </li>
               <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <a className="nav-link" href="mailto:rafaelmoreirasuyama@gmail.com" style={{ fontSize: '1rem' }}>
+                <Link className="nav-link" to="/hermeneutica" style={{ fontSize: '1rem' }}>
                   Hermenêutica Jurídica
-                </a>
+                </Link>
               </li>
               <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <a className="nav-link" href="https://wa.me/+5513996267989" style={{ fontSize: '1rem' }}>
-                  Jurisprudências
-                </a>
+                <Link className="nav-link" to="/parceria"  style={{ fontSize: '1rem' }}>
+                  Parcerias
+                </Link>
               </li>
               <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <a className="nav-link" href="https://github.com/RMSuyama" style={{ fontSize: '1rem' }}>
+                <Link className="nav-link" to="/newsletter"  style={{ fontSize: '1rem' }}>
                   Newsletter
-                </a>
+                </Link>
+              </li>
+              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                <Link className="nav-link" to="/bibliografia"  style={{ fontSize: '1rem' }}>
+                  Bibliografia Recomendada
+                </Link>
               </li>
               <li>
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -131,6 +137,8 @@ function Nav() {
         </div>
       </div>
     </nav>
+
+
   );
 }
 

@@ -1,10 +1,10 @@
 import React from "react";
 
-function Home() {
+function Inicio() {
   return (
     <div className="container mt-5">
-      <div className="jumbotron bg-dark text-white text-center p-4" style={{borderRadius:'3vw'}}>
-        <h1 className="display-4">Bem-vindo ao Blog Hermenêutica Jurídica!</h1>
+      <div className="bg-dark text-white text-center p-4" style={{borderRadius:'0.5vw'}}>
+        <h1 className="display-4">Bem-vindo ao Blog Hermenêutica Jurídica!</h1><br/>
         <p className="lead">
           Somos apaixonados por desvendar os intricados caminhos da hermenêutica jurídica.
           Nosso blog é o espaço onde exploramos e compartilhamos insights sobre interpretação
@@ -52,4 +52,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Inicio;
