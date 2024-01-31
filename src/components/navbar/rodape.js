@@ -18,31 +18,31 @@ function Rodape() {
       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style={{ display: 'flex', flexDirection: 'row' }}>
         <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginBottom: '1rem' }}>
           <a class="nav-link" aria-current="page" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/" style={{ textAlign: 'center', marginRight: '1rem' }}>
-            <img src={LinkedIn} className="img-fluid" style={{ width: '5rem' }} alt="LinkedIn Logo"></img>
+            <img src={LinkedIn} className="img-fluid" style={{ width: '2rem' }} alt="LinkedIn Logo"></img>
             LinkedIn
           </a>
         </li>
         <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginBottom: '1rem' }}>
           <a class="nav-link" href="https://www.instagram.com/rafael.suyama/" style={{ textAlign: 'center', marginRight: '1rem' }}>
-            <img src={Instagram} className="img-fluid" style={{ width: '5rem' }} alt="Instagram Logo"></img>
+            <img src={Instagram} className="img-fluid" style={{ width: '2rem' }} alt="Instagram Logo"></img>
             Instagram
           </a>
         </li>
         <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginBottom: '1rem' }}>
           <a class="nav-link" href="mailto:rafaelmoreirasuyama@gmail.com" style={{ textAlign: 'center', marginRight: '1rem' }}>
-            <img src={Gmail} className="img-fluid" style={{ width: '5rem' }} alt="Gmail Logo" />
+            <img src={Gmail} className="img-fluid" style={{ width: '2rem' }} alt="Gmail Logo" />
             Gmail
           </a>
         </li>
         <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginBottom: '1rem' }}>
           <a class="nav-link" href="https://wa.me/+5513996267989" style={{ textAlign: 'center', marginRight: '1rem' }}>
-            <img src={Whatsapp} className="img-fluid" style={{ width: '5rem' }} alt="Whatsapp Logo"></img>
+            <img src={Whatsapp} className="img-fluid" style={{ width: '2rem' }} alt="Whatsapp Logo"></img>
             Whatsapp
           </a>
         </li>
         <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginBottom: '1rem' }}>
           <a class="nav-link" href="https://github.com/RMSuyama" style={{ textAlign: 'center', marginRight: '1rem' }}>
-            <img src={Github} className="img-fluid" style={{ width: '5rem' }} alt="Github Logo"></img>
+            <img src={Github} className="img-fluid" style={{ width: '2rem' }} alt="Github Logo"></img>
             Github
           </a>
         </li>
