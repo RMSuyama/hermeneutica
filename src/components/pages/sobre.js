@@ -11,6 +11,7 @@ const SobreUs = () => {
     <SobreMim/>
     <SobreAndre/>
     <SobreEquipe/>
+    <Rodape/>
     </div>
   );
 };

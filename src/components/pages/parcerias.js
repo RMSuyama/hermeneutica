@@ -7,7 +7,7 @@ const Parcerias = () => {
     <div>
     <Nav/>
     <Inicio />
-
+    <Rodape/>
     </div>
   );
 };
