@@ -44,44 +44,44 @@ function Nav() {
           </div>
           <div className="offcanvas-body" style={{ color: 'black' }}>
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/" style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Início
-                </Link>
+                </a>
               </li>
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/artigos" style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/artigos">
                   Artigos
-                </Link>
+                </a>
               </li>
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/sobre" style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/sobre">
                   Sobre nós
-                </Link>
+                </a>
               </li>
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/hermeneutica" style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/hermeneutica">
                   Hermenêutica Jurídica
-                </Link>
+                </a>
               </li>
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/parceria"  style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/parceria">
                   Parcerias
-                </Link>
+                </a>
               </li>
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/newsletter"  style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/newsletter">
                   Newsletter
-                </Link>
+                </a>
               </li>
-              <li className="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Link className="nav-link" to="/bibliografia"  style={{ fontSize: '1rem' }}>
+              <li className="nav-item">
+                <a className="nav-link" href="/bibliografia">
                   Bibliografia Recomendada
-                </Link>
+                </a>
               </li>
-              <li>
-                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Contato
+              <li className="nav-item">
+                <button type="button" className="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Contato
                 </button>
 
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -92,37 +92,32 @@ function Nav() {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                      <ul class="navbar-nav flex-grow-1 pe-3" style={{ display: 'flex', flexDirection: 'row', justifyContent:'space-around' }}>
-                        <li class="nav-item" >
+                        <ul class="navbar-nav flex-grow-1 pe-3" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
+                          <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/">
-                            <img className="img-fluid" src={LinkedIn} style={{ width: '3rem'}} alt="Github Logo"></img> 
-                              
+                              <img className="img-fluid" src={LinkedIn} style={{ width: '3rem' }} alt="LinkedIn Logo"></img>
                             </a>
                           </li>
                           <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                             <a class="nav-link" href="https://www.instagram.com/rafael.suyama/">
-                            <img className="img-fluid" src={Instagram} style={{ width: '3rem'}} alt="Github Logo"></img> 
-                              
+                              <img className="img-fluid" src={Instagram} style={{ width: '3rem' }} alt="Instagram Logo"></img>
                             </a>
                           </li>
                           <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                             <a class="nav-link" href="mailto:rafaelmoreirasuyama@gmail.com">
-                            <img className="img-fluid" src={Gmail} style={{ width: '3rem'}} alt="Github Logo"></img> 
-                              
+                              <img className="img-fluid" src={Gmail} style={{ width: '3rem' }} alt="Gmail Logo"></img>
                             </a>
                           </li>
                           <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                             <a class="nav-link" href="https://wa.me/+5513996267989">
-                            <img className="img-fluid" src={Whatsapp} style={{ width: '3rem'}} alt="Github Logo"></img> 
+                              <img className="img-fluid" src={Whatsapp} style={{ width: '3rem' }} alt="Whatsapp Logo"></img>
                             </a>
                           </li>
                           <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                             <a class="nav-link" href="https://github.com/RMSuyama">
-                            <img className="img-fluid" src={Github} style={{ width: '3rem'}} alt="Github Logo"></img>
-                              
+                              <img className="img-fluid" src={Github} style={{ width: '3rem' }} alt="Github Logo"></img>
                             </a>
                           </li>
-
                         </ul>
                       </div>
                       <div class="modal-footer">
@@ -137,8 +132,6 @@ function Nav() {
         </div>
       </div>
     </nav>
-
-
   );
 }
 
