@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../../statics/img/Foto 2.jpeg';
+import ProfileImage from '../../statics/img/Rafa.png';
 
 function SobreMim() {
   return (
@@ -11,7 +11,7 @@ function SobreMim() {
                 src={ProfileImage}
                 alt="Minha Foto"
                 className="img-fluid rounded-circle mb-4 mt-4"
-                style={{ width: '25rem', height: '25rem', objectFit: 'cover', borderRadius: '50%' }}
+                style={{ width: '65rem', height: '35rem', objectFit: 'cover', borderRadius: '50%' }}
             />
             </div>
 
@@ -20,17 +20,17 @@ function SobreMim() {
 
             <p style={{ textAlign: 'justify' }}>
               
-              Advogado OAB 484.261 | Controladoria | Compliance | Contratualista | Due Dilligence | Automação de Processos Jurídicos | Office | VBA | SQL | React.js</p>
+              Vocalista e Violonista</p>
 
 
               <p style={{ textAlign: 'justify' }}>
-                Como um dos sócios fundadores, estou aqui para trazer não apenas conhecimento jurídico, mas também a vontade de compartilhar e explorar novos horizontes. Minha atuação vai além do convencional, unindo habilidades em direito, programação e análise de dados.<br/><br/>
+              Nascido no Vale do Ribeira, Rafarel Suyama é cantor, violonista e compositor autodidata.
+              <br/><br/>
+              Rafael Suyama é cantor, violonista e compositor autodidata, com uma sonoridade que mistura a leveza e a energia de diferentes estilos. Natural do Vale do Ribeira e descendente de japoneses, nordestinos e capixabas, ele traz para sua música uma fusão única dessas culturas e influências.<br/><br/>
 
-                Minha formação jurídica se completa com uma sólida experiência na área de privacidade, legal ops e controladoria jurídica, utilizando diversas tecnologias, como: Python, JavaScript, Excel, VBA e SQL. Busco constantemente aprendizado e crescimento profissional, buscando sempre estar antenado para oferecer soluções diferentes para os desafios diários que a advocacia nos põe a prova.<br/><br/>
+Seu repertório transita entre reggae, MPB, sambarock, rap e forró, criando uma música autêntica e versátil que conecta tradição e modernidade. Com uma abordagem simples e cheia de alma, suas letras falam de sentimentos profundos e experiências de vida, sempre com uma pegada envolvente e cativante.<br/><br/>
 
-
-                Explore nosso blog, mergulhe nos artigos, participe das discussões e faça parte desta comunidade dedicada à disseminação do conhecimento jurídico. Estamos aqui para tornar a jornada jurídica mais acessível, interessante e enriquecedora para todos. Seja bem-vindo à Hermenêutica Jurídica.
-
+Ex-integrante da banda Mangata, Rafael está de volta ao cenário musical com o projeto Paralello Caiçara, resgatando suas raízes e explorando novos horizontes musicais com sua voz e violão, sempre guiado pela paixão pela música e pela autenticidade de sua trajetória.
                 </p>
           </div>
         </div>
