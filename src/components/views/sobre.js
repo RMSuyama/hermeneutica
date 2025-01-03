@@ -10,8 +10,8 @@ function SobreMim() {
             <img
                 src={ProfileImage}
                 alt="Minha Foto"
-                className="img-fluid rounded-circle mb-4 mt-4"
-                style={{ width: '65rem', height: '35rem', objectFit: 'cover', borderRadius: '50%' }}
+                className="img-fluid  mb-4 mt-4"
+                style={{ width: '65rem', height: '35rem', objectFit: 'cover', borderRadius: '2%' }}
             />
             </div>
 
@@ -28,9 +28,9 @@ function SobreMim() {
               <br/><br/>
               Rafael Suyama é cantor, violonista e compositor autodidata, com uma sonoridade que mistura a leveza e a energia de diferentes estilos. Natural do Vale do Ribeira e descendente de japoneses, nordestinos e capixabas, ele traz para sua música uma fusão única dessas culturas e influências.<br/><br/>
 
-Seu repertório transita entre reggae, MPB, sambarock, rap e forró, criando uma música autêntica e versátil que conecta tradição e modernidade. Com uma abordagem simples e cheia de alma, suas letras falam de sentimentos profundos e experiências de vida, sempre com uma pegada envolvente e cativante.<br/><br/>
+              Seu repertório transita entre reggae, MPB, sambarock, rap e forró, criando uma música autêntica e versátil que conecta tradição e modernidade. Com uma abordagem simples e cheia de alma, suas letras falam de sentimentos profundos e experiências de vida, sempre com uma pegada envolvente e cativante.<br/><br/>
 
-Ex-integrante da banda Mangata, Rafael está de volta ao cenário musical com o projeto Paralello Caiçara, resgatando suas raízes e explorando novos horizontes musicais com sua voz e violão, sempre guiado pela paixão pela música e pela autenticidade de sua trajetória.
+              Ex-integrante da banda Mangata, Rafael está de volta ao cenário musical com o projeto Paralello Caiçara, resgatando suas raízes e explorando novos horizontes musicais com sua voz e violão, sempre guiado pela paixão pela música e pela autenticidade de sua trajetória.
                 </p>
           </div>
         </div>

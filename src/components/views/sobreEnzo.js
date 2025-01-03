@@ -30,8 +30,8 @@ function SobreMim() {
             <img
                 src={ProfileImage}
                 alt="Minha Foto"
-                className="img-fluid rounded-circle mb-4 mt-4"
-                style={{ width: '65rem', height: '35rem', objectFit: 'cover', borderRadius: '50%' }}
+                className="img-fluid mb-4 mt-4"
+                style={{ width: '65rem', height: '35rem', objectFit: 'cover', borderRadius: '2%' }}
             />
             </div>
           

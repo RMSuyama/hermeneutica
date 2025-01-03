@@ -11,13 +11,8 @@ import { Link, BrowserRouter as Router } from 'react-router-dom';
 function Nav() {
   return (
     <nav className="navbar navbar-dark bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
-      <div className="container-fluid">
-        <div className="navbar-brand" style={{ textAlign: "left", marginLeft: '1vw' }}>
-          <div className='d-flex'>
-            <img src={Logo} alt="Logo" style={{ width: '120px', marginRight: '10px', backgroundColor: 'white', borderRadius: '30vw', padding: '0.5vw' }} />
-            <h2 id="nomeLogo" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '1rem', fontSize: '1.5rem' }}></h2>
-          </div>
-        </div>
+      <div className="container-fluid centered">
+
 
         <button
           className="navbar-toggler"
@@ -80,17 +75,15 @@ function Nav() {
                       <div class="modal-body">
                         <ul class="navbar-nav flex-grow-1 pe-3" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
                           <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/">
-                              <img className="img-fluid" src={LinkedIn} style={{ width: '3rem' }} alt="LinkedIn Logo"></img>
-                            </a>
+
                           </li>
                           <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                            <a class="nav-link" href="https://www.instagram.com/rafael.suyama/">
+                            <a class="nav-link" href="https://www.instagram.com/r.suyama/">
                               <img className="img-fluid" src={Instagram} style={{ width: '3rem' }} alt="Instagram Logo"></img>
                             </a>
                           </li>
                           <li class="nav-item" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                            <a class="nav-link" href="mailto:rafaelmoreirasuyama@gmail.com">
+                            <a class="nav-link" href="mailto:paralellocaicara@gmail.com">
                               <img className="img-fluid" src={Gmail} style={{ width: '3rem' }} alt="Gmail Logo"></img>
                             </a>
                           </li>
